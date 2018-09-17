@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+<category>
+<pattern>안녕</pattern>
+<template>안녕하세요</template>
+</category>
+
+<category>
+<pattern>누구신가요</pattern>
+<template>학원안내봇입니다</template>
+</category>
+
+<category>
+   <pattern> 나는 *를 좋아합니다.</pattern>
+   <template>
+      나도 <star index="1"/>를 좋아합니다.
+   </template>
+</category>
+
+<category>
+   <pattern> *과 *사이의 거리는 </pattern>
+   <template>
+      <star index="1"/>과 <star index="2"/> 사이의
+      거리는 100입니다. 
+   </template>
+</category>
+
+<category>
+   <pattern>안녕하신지 </pattern>
+   <template>
+      <random>
+         <li> 안녕하세요 </li>
+         <li> 안녕하세요 만나서 반갑습니다. </li>
+      </random>
+   </template>
+</category>
+
+<category>
+   <pattern> 뭐 </pattern>
+   <template>
+      <random>
+         <li> 어쩌라고 </li>
+         <li> 뭐 </li>
+      </random>
+   </template>
+</category>
+
+</aiml>

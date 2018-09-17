@@ -1,0 +1,8 @@
+digraph  {
+K;
+nK;
+K -> K  [key=0, weight="0.88", label="0.88"];
+K -> nK  [key=0, weight="0.12", label="0.12"];
+nK -> K  [key=0, weight="0.15", label="0.15"];
+nK -> nK  [key=0, weight="0.85", label="0.85"];
+}
