@@ -1,0 +1,21 @@
+* Python 문자열 자료형
+- 순서형 자료구조(index를 가지고 있다, 음수값은 length(String)에서 음수를 뺀 순서의 인덱스 값)
+s='korea'
+s[0]=s[-5]
+s[4]=s[-1]
+
+__str__: 객체의 비공식적인 문자열 출력
+__repr__: 공식적인 문자열 출력
+
+* 정규표현(regular expression)
+- pattern matching
+
+[^a,b,c]- ^:not, []: 0, 1 
+{}: 반복
+^: begin
+$: end
+r\pattern: escape character
+*: 0 or more
++: 1 or more
+?: 0 or 1
+.: 1개 문자(\제외)

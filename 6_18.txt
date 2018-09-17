@@ -1,0 +1,17 @@
+데이터베이스
+- SQL filebase binary tree
+- relation: 중복배제
+- 공유와 중복제거 관리의 효율성
+- transaction: commit
+- trigger: 확산
+- stored procedure
+- view
+
+mysql
+확장자
+- frm: table information
+- myd: data
+- myi: binary tree index
+
+select [][] from [] where [group by][having][order by][limit]
+

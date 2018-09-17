@@ -1,0 +1,29 @@
+자료구조 
+ - collection: list, dict, set, tuple
+
+탐색 알고리즘
+ - 순차 검색 -> 이진 검색 -> 해시
+
+얕은복사, 깊은복사
+y = copy(x),
+y = deepcopy(x)
+
+OOP
+ - class - object
+ - 캡슐화, 추상화, 상속, 다형성
+ - 자료형 str, int, float
+ - overloading, overriding
+ - object 클래스 = 최상위 클래스
+ - map, filter, reduce
+ - 실시간으로 변수, 메소드 추가가능
+ - __init__(self, ): 생성자(파이썬 클래스의 메소드는 반드시 self를 매개변수로 가져야 한다)
+ - __str__, __repr__: print에서 자동으로 호출
+
+생성자
+ - 생성자는 필수가 아님 (선언 안하면 안만들어진다.)
+ - 객체 생성시 자동 호출
+ - 기본 접근 지정자 public
+ - __: private으로 만들고자 하면 변수앞에 쓴다.
+ - self: 현재 객체의 인스턴스 변수와 메소드를 지칭할 때 사용
+ - super: 부모 클래스
+ https://ddanggle.gitbooks.io/interpy-kr/content/ch10-slots-magic.html
